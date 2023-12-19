@@ -11,7 +11,9 @@ you will need to install the dependencies with the command:
 ## Running automation E2E tests
 
 Run for mobile version `npm run cypress:mobile` 
+
 Run for web version `npm run cypress:web` 
+
 to execute the e2e test suite.
 
 ## Spec Report 
