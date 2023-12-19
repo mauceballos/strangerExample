@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  },
+  "scripts": {
+    "start": "npx cypress open",
+    "cypress:web": "npx cypress run --env dev=web --headless --browser chrome",
+    "cypress:mobile": "npx cypress run --env dev=mobile --headless --browser chrome"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Mauricio Ceballos"
+}
